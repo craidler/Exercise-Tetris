@@ -1,0 +1,13 @@
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<AnchorPane fx:controller="Tetris.Controller.Level" xmlns:fx="http://javafx.com/fxml" style="-fx-background-color: #000000">
+    <AnchorPane fx:id="pane_queue" styleClass="field"/>
+    <AnchorPane fx:id="pane_play" translateX="100" styleClass="field"/>
+    <AnchorPane fx:id="pane_info" translateX="340">
+        <Label fx:id="label_level" translateY="00" prefWidth="100" textFill="#ffffff"/>
+        <Label fx:id="label_speed" translateY="20" prefWidth="100" textFill="#ffffff"/>
+        <Label fx:id="label_point" translateY="40" prefWidth="100" textFill="#ffffff"/>
+        <Label fx:id="label_lines" translateY="60" prefWidth="100" textFill="#ffffff"/>
+        <Label fx:id="label_clear" translateY="80" prefWidth="100" textFill="#ffffff"/>
+    </AnchorPane>
+</AnchorPane>
